@@ -30,10 +30,8 @@ class App extends Component {
   render() {
     const styling = {
       display: 'flex',
-      padding: '16px',
-      textAlign: 'center',
-      margin: '16px',
-      border: '1px solid black'
+      flexWrap: 'wrap',
+      width: '100%'
     }
     let letterArr = this.state.inputText.split('');
     let lettersDiv;
